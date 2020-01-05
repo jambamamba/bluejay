@@ -14,5 +14,7 @@ cd bluejay
 ./run.sh ~/$DOCKERUSER/bluejay/images/SceauxCastle/ /tmp/output/SceauxCastle
 
 ```
+<img width="40%" src="docs/stackofimages.jpg"/><img width="40%" src="docs/3d-redering.gif"/>
+
 
 

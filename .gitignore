@@ -1,5 +1,4 @@
 install
-images
 src
 build*
 CMakeLists.txt.*

@@ -1,0 +1,1 @@
+{"ret":"0","file":"sandbox/p1cqr413vq7kg5c4lscpls0hmp/tv.ply","log":"created object","image_src":"sandbox/p1cqr413vq7kg5c4lscpls0hmp/tv.jpg","vertices":[],"indices":[],"normals":[],"texture":[],"colors":[]}

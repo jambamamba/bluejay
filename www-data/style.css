@@ -1,0 +1,16 @@
+#toolbar  {
+    width:100%;
+}
+#toolbar div {
+    display:inline-block;
+    vertical-align: top;
+}
+.toolbar-button {
+    width:50px;
+}
+#upload_area {
+    width:20%;
+}
+#upload_area .qq-upload-drop-area  {
+    width:200%;
+}

@@ -1,0 +1,1 @@
+{"ret":"0","file":"sandbox/g8f7tqg4cgihjs7pp0f44ragt6/sofaset.ply","log":"created object","image_src":"sandbox/g8f7tqg4cgihjs7pp0f44ragt6/sofaset.jpg","vertices":[],"indices":[],"normals":[],"texture":[],"colors":[]}

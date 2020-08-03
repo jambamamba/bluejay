@@ -3,8 +3,8 @@
 $err=null;
 
 define ('DEFINE__MAX_EDITOR_DATA_LENGTH', 100000);
-require_once '../libs1/html_purify.php';
-require_once '../libs1/lib.php';
+require_once '/home/dev/oosman/work.web.git/libs1/html_purify.php';
+require_once '/home/dev/oosman/work.web.git/libs1/lib.php';
 
 my_session_start();
 html_purify($_REQUEST, $err);

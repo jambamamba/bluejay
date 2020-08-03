@@ -3,7 +3,7 @@ set -xe
 
 inputdir=$1
 outdir=$2
-rootdir=$PWD/install
+rootdir=~/${DOCKERUSER}/bluejay/install
 mkdir -p $outdir
 python $rootdir/openMVG/software/SfM/SfM_GlobalPipeline.py $inputdir $outdir
 pushd $outdir/reconstruction_global

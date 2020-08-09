@@ -2,3 +2,4 @@ install
 src
 build*
 CMakeLists.txt.*
+www-data/sandbox

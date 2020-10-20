@@ -1,13 +1,16 @@
 # bluejay
 
+Build and enter the Docker container if you have not done so:
 ```bash
 
 git clone git@github.com:jambamamba/bluejay.docker.git
 cd bluejay.docker
 docker build -t bluejay .
 ./enterdocker.sh
-
-git clone git@github.com:jambamamba/bluejay.git
+```
+Next buid BlueJay:
+```bash
+git clone https://github.com/jambamamba/bluejay.git
 cd bluejay
 ./build.sh
 

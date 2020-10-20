@@ -12,7 +12,7 @@ mkdir -p $srcdir
 #eigen
 cd $srcdir
 rm -fr eigen*
-hg clone https://bitbucket.org/eigen/eigen#3.3
+git clone https://gitlab.com/libeigen/eigen.git
 mkdir -p $installdir/eigen && cd $installdir/eigen  && rm -fr  $installdir/eigen/*
 cmake -DCMAKE_INSTALL_PREFIX=$installdir/eigen $srcdir/eigen
 make -j8

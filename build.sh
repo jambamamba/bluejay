@@ -32,7 +32,7 @@ make install
 #openMVG
 cd $srcdir
 rm -fr openMVG
-git clone --recursive git@github.com:jambamamba/openMVG.git
+git clone --recursive https://github.com:jambamamba/openMVG.git
 cd openMVG
 git checkout oosman
 git submodule update --recursive --init
@@ -62,7 +62,7 @@ make -j8
 #openMVS
 cd $srcdir
 rm -fr openMVS
-git clone --recursive git@github.com:jambamamba/openMVS.git
+git clone --recursive https://github.com:jambamamba/openMVS.git
 cd openMVS
 git checkout oosman
 git submodule update --recursive --init
@@ -70,4 +70,3 @@ mkdir -p $installdir/openMVS && cd $installdir/openMVS && rm -fr  $installdir/op
 BOOST_ROOT="$srcdir/boost_1_72_0" OpenCV_DIR=$installdir/opencv cmake -DCMAKE_INSTALL_PREFIX=$installdir/openMVS -DCMAKE_PREFIX_PATH="$installdir/eigen" -DCMAKE_BUILD_TYPE=Release -DBUILD_SHARED_LIBS=ON -DENABLE_PRECOMPILED_HEADERS=OFF -DVCG_ROOT="$srcdir/vcglib" $srcdir/openMVS
 make -j8
 make install
-

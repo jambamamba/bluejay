@@ -32,7 +32,7 @@ make install
 #openMVG
 cd $srcdir
 rm -fr openMVG
-git clone --recursive https://github.com:jambamamba/openMVG.git
+git clone --recursive https://github.com/jambamamba/openMVG.git
 cd openMVG
 git checkout oosman
 git submodule update --recursive --init
@@ -62,7 +62,7 @@ make -j8
 #openMVS
 cd $srcdir
 rm -fr openMVS
-git clone --recursive https://github.com:jambamamba/openMVS.git
+git clone --recursive https://github.com/jambamamba/openMVS.git
 cd openMVS
 git checkout oosman
 git submodule update --recursive --init

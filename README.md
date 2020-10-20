@@ -21,5 +21,10 @@ cd bluejay
 ```
 <img width="40%" src="docs/stackofimages.jpg"/><img width="40%" src="docs/3d-redering.gif"/>
 
+The output is generated in /tmp/output.
+When you exit the Docker container, it is destroyed. So if you want to keep it, then copy /tmp/output/SceauxCastle to some other persistent location
 
+You can also view the generated 3d model (ply file) in Meshlab or Blender
+
+https://www.meshlab.net/#download
 
